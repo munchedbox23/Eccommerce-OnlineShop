@@ -1,0 +1,183 @@
+{
+  "products": [
+    {
+      "src": "assets/images/products/f1.jpg",
+      "brand": "adidas",
+      "proname": "Men's Hawaiian shirt Plants",
+      "stars": 5,
+      "price": 78,
+      "id": "1"
+    },
+    {
+      "src": "assets/images/products/f2.jpg",
+      "brand": "adidas",
+      "proname": "Men's Hawaiian shirt Harajuku",
+      "stars": 4,
+      "price": 56,
+      "id": "2"
+    },
+    {
+      "src": "assets/images/products/f3.jpg",
+      "brand": "adidas",
+      "proname": "Men's Hawaiian shirt Retro flowers",
+      "stars": 5,
+      "price": 67,
+      "id": "3"
+    },
+    {
+      "src": "assets/images/products/f4.jpg",
+      "brand": "adidas",
+      "proname": "Men's Hawaiian shirt Sakura",
+      "stars": 3,
+      "price": 38,
+      "id": "4"
+    },
+    {
+      "src": "assets/images/products/f5.jpg",
+      "brand": "adidas",
+      "proname": "Men's Hawaiian shirt Allover Roses",
+      "stars": 3,
+      "price": 50,
+      "id": "5"
+    },
+    {
+      "src": "assets/images/products/f6.jpg",
+      "brand": "BOORUI",
+      "proname": "Men's Patchwork Cordurou shirt",
+      "stars": 4,
+      "price": 115,
+      "id": "6"
+    },
+    {
+      "src": "assets/images/products/f7.jpg",
+      "brand": "H&M",
+      "proname": "Vintage Daisy Women Casual Pants",
+      "stars": 4,
+      "price": 27.89,
+      "id": "7"
+    },
+    {
+      "src": "assets/images/products/f8.jpg",
+      "brand": "Zara",
+      "proname": "Women Jasmin Tunic",
+      "stars": 2,
+      "price": 16.76,
+      "id": "8"
+    },
+    {
+      "src": "assets/images/products/n1.jpg",
+      "brand": "H&M",
+      "proname": "Mango Kids ALBERT Shirt",
+      "stars": 5,
+      "price": 29.66,
+      "id": "9"
+    },
+    {
+      "src": "assets/images/products/n2.jpg",
+      "brand": "Massimo Dutti",
+      "proname": "Men's Shirt",
+      "stars": 3,
+      "price": 123.39,
+      "id": "10"
+    },
+    {
+      "src": "assets/images/products/n3.jpg",
+      "brand": "Zara Kids",
+      "proname": "Textured Shirt",
+      "stars": 5,
+      "price": 43.19,
+      "id": "11"
+    },
+    {
+      "src": "assets/images/products/n4.jpg",
+      "brand": "Dries Van Noten",
+      "proname": "Cotton Shirt",
+      "stars": 5,
+      "price": 1091.33,
+      "id": "12"
+    },
+    {
+      "src": "assets/images/products/n5.jpg",
+      "brand": "Tom Tailor",
+      "proname": "Denim Unisex Shirt",
+      "stars": 3,
+      "price": 48.12,
+      "id": "13"
+    },
+    {
+      "src": "assets/images/products/n6.jpg",
+      "brand": "Giorgio Armani",
+      "proname": "Cotton and viscose shorts",
+      "stars": 5,
+      "price": 798.1,
+      "id": "14"
+    },
+    {
+      "src": "assets/images/products/n7.jpg",
+      "brand": "Barbour",
+      "proname": "Sandy Cotton Shirt",
+      "stars": 2,
+      "price": 11.26,
+      "id": "15"
+    },
+    {
+      "src": "assets/images/products/n8.jpg",
+      "brand": "Commas",
+      "proname": "Oversize linen shirt",
+      "stars": 5,
+      "price": 509.31,
+      "id": "16"
+    }
+  ],
+  "requests": [
+    {
+      "id": "888f",
+      "username": "Munchedbox",
+      "email": "egor032324@mail.ru",
+      "subject": "Стоимость доставки",
+      "message": ""
+    },
+    {
+      "id": "bb49",
+      "username": "caccsac",
+      "email": "egor032324@mail.ru",
+      "subject": "csacac",
+      "message": ""
+    },
+    {
+      "id": "c21f",
+      "username": "munchedbox",
+      "email": "rubcov_egorka@mail.ru",
+      "subject": "Стоимость доставки",
+      "message": ""
+    },
+    {
+      "id": "2c72",
+      "username": "munchedbox",
+      "email": "egor032324@mail.ru",
+      "subject": "мфм",
+      "message": "мвмв"
+    },
+    {
+      "id": "0d4b",
+      "username": "st122270",
+      "email": "rubcov_egorka@mail.ru",
+      "subject": "gwrgw",
+      "message": "hrwhwrh"
+    }
+  ],
+  "mailing": [
+    {
+      "id": "66d9",
+      "email": "egor032324@mail.ru"
+    },
+    {
+      "id": "985a",
+      "email": "voloschuk_0605@mail.ru"
+    },
+    {
+      "id": "5520",
+      "email": "rubcov_egorka@mail.ru"
+    }
+  ]
+}

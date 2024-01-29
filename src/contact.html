@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Description -->
+  <meta name="description" content="Интернет-магазин брендовой одежды с приятным дополнением в виде аксессуаров. Приобретая товар в нашем магазине, Вы можете быть уверены в гаранте соотношения цены и качества. При этом заказанный вами товар, может быть доставлен в любую точку России и стран СНГ, в кротчайшие сроки.">
+  <!-- FONT-AWESOME LINK -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+  <!-- NORMALIZE CSS LINK -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- RESET CSS LINK -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reseter.css/2.0.0/reseter.min.css" integrity="sha512-gCJkkUMGTe73+FMwog6gIBCVJIMXRoc21l6/IPCuzxCex/1sxvO8ctb6Zd4/WWs2UMqmtnDrAdhJht5pEY0LXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- ANIMATE CSS LINK -->
+  <link rel="stylesheet" href="styles/css/animate.css">
+  <!-- MAIN CSS LINK -->
+  <link rel="stylesheet" href="styles/css/style.css">
+  <!-- MAIN ICON -->
+  <link rel="icon" href="assets/icons/shop.ico">
+  <title>Eccommerce Online Shop</title>
+</head>
+<body>
+  <!-- Header -->
+  <header id="header">
+    <a href="./index.html" class="header__logo">
+      <img src="assets/images/logo.png" alt="Logo.png">
+    </a>
+    <div>
+      <ul class="nav" id="navbar">
+        <li class="nav__item"><a href="index.html">Home</a></li>
+        <li class="nav__item"><a href="shop.html">Shop</a></li>
+        <li class="nav__item"><a href="blog.html">Blog</a></li>
+        <li class="nav__item"><a href="about.html">About</a></li>
+        <li class="nav__item active"><a href="contact.html">Contact</a></li>
+        <li id="lg-bag" class="nav__item">
+          <a href="cart.html">
+            <i class="far fa-shopping-bag"></i>
+            <div data-count class="cart__num" id="cart_num">0</div>
+          </a></li>
+        <a data-close href="#" id="close">
+          <i class="far fa-times"></i>
+        </a>
+      </ul>
+    </div>
+    <div id="mobile">
+      <li class="nav__item"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+      <i id="bar" class="fas fa-outdent"></i>
+    </div>
+  </header>
+  <!-- Hero Section -->
+  <section class="contact-header" id="page-header">
+      <h2>#let's_talk</h2>
+      <p>LEAVE A MESSAGE.We love to hear from you!</p>
+  </section>
+  <secton id="contact-details" class="contact-details">
+    <div class="details">
+      <span>get in touch</span>
+      <h2>Visit one of our agency locations or contact us today</h2>
+      <h3>Head Office</h3>
+      <div class="details__info">
+        <li>
+          <i class="fal fa-map"></i>
+          <p>56 Glassford Street Glasgow G1 1UL New York</p>
+        </li>
+        <li>
+          <i class="far fa-envelope"></i>
+          <p>contact@example.com</p>
+        </li>
+        <li>
+          <i class="fas fa-phone-alt"></i>
+          <p>+7(999)777-88-11</p>
+        </li>
+        <li>
+          <i class="far fa-clock"></i>
+          <p>Monday to Saturday: 9.00am to 16.pm</p>
+        </li>
+      </div>
+    </div>
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79028.82705994546!2d-1.316122463070348!3d51.75770789023402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876c6a9ef8c485b%3A0xd2ff1883a001afed!2sUniversity%20of%20Oxford!5e0!3m2!1sen!2sin!4v1665512781798!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </secton>
+
+  <section id="contact-form" class="contact-form">
+    <form>
+      <span>Leave a Message</span>
+      <h2>We lover to hear from you</h2>
+      <div class="input-group">
+        <input placeholder="Enter your name" name="username" type="text">
+        <input name="email" placeholder="Enter your Email" type="email">
+        <input name="subject" placeholder="Enter your Subject" type="text">
+      </div>
+      <textarea name="message" placeholder="Your Message" cols="30" rows="10"></textarea>
+      <button class="normal">Sumbit</button>
+    </form>
+
+    <div class="people">
+      <div class="people-box">
+        <img src="assets/images/people/1.png" alt="">
+        <p><span>John Doe</span> Senior Marketing Manager <br> Phone: +91 1234567980 <br> Email: contact@example.com</p>
+      </div>
+      <div class="people-box">
+        <img src="assets/images/people/2.png" alt="">
+        <p><span>Mike Cru</span> Senior Marketing Manager <br> Phone: +91 1234567980 <br> Email: contact@example.com</p>
+      </div>
+      <div class="people-box">
+        <img src="assets/images/people/3.png" alt="">
+        <p><span>Alice Hrow</span> Senior Marketing Manager <br> Phone: +91 1234567980 <br> Email: contact@example.com</p>
+      </div>
+    </div>
+  </section>
+<!-- News -->
+<section id="news" class="news">
+  <div class="news__text">
+    <h4>Sign Up For Newsletters</h4>
+    <p>Get E-mail updates about our latest shop and <span>special offers</span></p>
+  </div>
+  <form class="news__form">
+    <input name="email" placeholder="Your email address" type="email">
+    <button class="normal">Sign Up</button>
+  </form>
+</section>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="col">
+      <img class="footer__logo" src="assets/images/logo.png" alt="CaraLogo.png">
+      <h4>Contact</h4>
+      <div class="footer-info">
+        <p><strong>Address:</strong> 562 Wellington Road, Street 32, San Francisco</p>
+        <p><strong>Phone:</strong> +01 2222 365 /(+91) 01 2345 6789</p>
+        <p><strong>Hours:</strong>10:00 - 18:00, Mon - Sat</p>
+      </div>
+      <div class="follow">
+        <h4>Follow us</h4>
+        <div class="icons">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-pinterest-p"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <h4>About</h4>
+      <a href="#">About us</a>
+      <a href="#">Delivery Information</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & Conditions</a>
+      <a href="#">Contact Us</a>
+    </div>
+    <div class="col">
+      <h4>My Account</h4>
+      <a href="#">Sign In</a>
+      <a href="#">View Cart</a>
+      <a href="#">My Wishlist</a>
+      <a href="#">Track My Order</a>
+      <a href="#">Help</a>
+    </div>
+    <div class="col install">
+      <h4>Install App</h4>
+      <p>From App Store or Google Play</p>
+      <div class="row">
+        <img src="assets/images/pay/app.jpg" alt="AppStore.png">
+        <img src="assets/images/pay/play.jpg" alt="GooglePlay.jpg">
+      </div>
+      <p>Secured Payment Gateways </p>
+      <img src="assets/images/pay/pay.png" alt="">
+    </div>
+
+
+    <div class="copyright">
+      <p>© 2024, Egor Rubtsov - HTML CSS Eccommerce Template</p>
+    </div>
+  </footer>
+</body>
+</html>
