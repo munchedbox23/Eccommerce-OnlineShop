@@ -33,9 +33,7 @@ pnpm run build
 
 ```https://github.com/munchedbox23/Eccommerce-OnlineShop.git```
   
-2. Going to the directory
-
-```cd src```
+2. Going to the directory  ```cd src```  
 3. Run the local database as a json file and go to the data folder  
 
 ```bash
