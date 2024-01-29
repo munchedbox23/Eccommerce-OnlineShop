@@ -18,7 +18,7 @@ pnpm install
 
 # yarn
 yarn install
-
+```
 Build the application for production:
 
 ```bash
@@ -32,10 +32,11 @@ pnpm run build
 1. Cloning a repository 
 
 ```https://github.com/munchedbox23/Eccommerce-OnlineShop.git```
+  
 2. Going to the directory
 
 ```cd src```
-3. Run the local database as a json file and go to the data folder
+3. Run the local database as a json file and go to the data folder  
 
 ```bash
 # npx
@@ -56,7 +57,7 @@ Webpack option for start server:
 ```bash
 devServer: {port: 4200},
 ```
-##Screenshots
+## Screenshots
 
 `Shop Page`
 ![image](/Screenshots/shopPage.png)
@@ -71,7 +72,7 @@ devServer: {port: 4200},
 `banners`
 ![image](/Screenshots/banners.png)
 
-##Adaptive layout
+## Adaptive layout
 
 `iPadMini`
 ![image](/Screenshots/iPadMini.png)
