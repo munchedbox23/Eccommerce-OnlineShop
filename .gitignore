@@ -2,3 +2,4 @@ node_modules
 sass
 package-lock.json
 webpack.config.js
+style.map
